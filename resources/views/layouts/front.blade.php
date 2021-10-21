@@ -14,7 +14,7 @@
     <meta name="author" content="<strong>Toronto Airport Limo - Pearson Airport Limo</strong>">
 
     <link rel="icon" href="{{ asset('theme/img/favicon.ico') }}">
-    <title>Exclusive Airport Limo Toronto-Corporate Livery 1 416 845-5005</title>
+    <title>@yield('title')</title>
 
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">

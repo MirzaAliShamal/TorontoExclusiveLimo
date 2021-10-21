@@ -41,16 +41,16 @@
                                                             <a href="fleet.php"><i class="fa fa-car"></i> Our Fleet</a>
                                                         </li>
                                                         <li>
-                                                            <a href="airport_limo_service"><i class="fa fa-plane"></i> Airport Limousine</a>
+                                                            <a href="{{ route('airport.limo') }}"><i class="fa fa-plane"></i> Airport Limousine</a>
                                                         </li>
                                                         <li>
-                                                            <a href="executive_chauffeuring_limo_service"><i class="fa fa-car"></i> Executive Chauffeuring Toronto</a>
+                                                            <a href="{{ route('chauffer.limo') }}"><i class="fa fa-car"></i> Executive Chauffeuring Toronto</a>
                                                         </li>
                                                         <li>
                                                             <a href="wedding_limo_service"><i class="fa fa-glass"></i> Wedding Limousine</a>
                                                         </li>
                                                         <li>
-                                                            <a href="prom_limo_service"><i class="fa fa-glass"></i> Prom / Sweet 16</a>
+                                                            <a href="{{ route('prom.limo') }}"><i class="fa fa-glass"></i> Prom / Sweet 16</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -59,19 +59,19 @@
                                                 <li>
                                                     <ul>
                                                         <li>
-                                                            <a href="child_seat_airport_limo"><i class="fa fa-smile-o"></i> Child Car Seat Limousine</a>
+                                                            <a href="{{ route('childseat.limo') }}"><i class="fa fa-smile-o"></i> Child Car Seat Limousine</a>
                                                         </li>
                                                         <li>
-                                                            <a href="niagaratour_limo_service"><i class="fa fa-cab"></i> Niagara Falls / Wine Tours</a>
+                                                            <a href="{{ route('niaggra.limo') }}"><i class="fa fa-cab"></i> Niagara Falls / Wine Tours</a>
                                                         </li>
                                                         <li>
-                                                            <a href="nightout_limo_service"><i class="fa fa-cab"></i> Night Out Limo Toronto</a>
+                                                            <a href="{{ route('nightout.limo') }}"><i class="fa fa-cab"></i> Night Out Limo Toronto</a>
                                                         </li>
                                                         <li>
-                                                            <a href="casino_limo_service"><i class="fa fa-glass"></i> Casino Tours</a>
+                                                            <a href="{{ route('casino.limo') }}"><i class="fa fa-glass"></i> Casino Tours</a>
                                                         </li>
                                                         <li>
-                                                            <a href="funeral_limo_service"><i class="fa fa-cab"></i> Funeral Limousine</a>
+                                                            <a href="{{ route('funeral.limo') }}"><i class="fa fa-cab"></i> Funeral Limousine</a>
                                                         </li>
                                                     </ul>
                                                 </li>
