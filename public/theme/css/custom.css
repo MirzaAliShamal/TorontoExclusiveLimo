@@ -1,0 +1,74 @@
+.feature.business i {
+    font-size: 40px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    color: #333;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.split [class^=col-] {
+    padding: 20px 20px;
+}
+
+.header.icons-no .nav > li > a .link-item {
+    color: #d9c77e;
+}
+
+.cayman-slider .slider-content-style1 h1, .cayman-slider .slider-content-style1 h2, .cayman-slider .slider-content-style1 h3 {
+    color: #d9c77e;
+}
+
+@media (max-width: 550px) {
+    .booking-form {
+        border: none;
+        padding: 0;
+        width: 100%;
+    }
+
+    .business_carousel .carousel-content h1 {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .flex-caption {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .header .navbar .navbar-brand.large {
+        padding: 0;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .link-item {
+        font-size: 15px;
+    }
+
+}
+
+.limo-menu-item:hover {
+    color: #20b2aa;
+    background: #303543;
+    transition: all 0.1s ease-in;
+}
+
+article.col-md-4 {
+    text-align: center;
+}
+
+
+div.grecaptcha-badge[data-style="bottomright"] {
+  display: none;
+}
